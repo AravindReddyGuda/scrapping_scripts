@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV file
-file_path = 'C:/Users/1234a/OneDrive/Desktop/DataScienceLearning/JupiterNotebookLearning/contacts (1).csv'
+file_path = 'D:/Users/OneDrive/Desktop/DataScienceLearning/JupiterNotebookLearning/contacts (1).csv'
 emails_df = pd.read_csv(file_path)
 
 # Display the first few rows of the dataframe to understand its structure
