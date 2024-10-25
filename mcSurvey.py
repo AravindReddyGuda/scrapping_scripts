@@ -13,7 +13,7 @@ CN5 = CN[20:25]
 CN6 = CN[25:26]
 
 # Specify the path to your chromedriver
-chrome_service = Service('C:/Users/1234a/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe')
+chrome_service = Service('D:/Users/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe')
 # Initialize the WebDriver with the Service object
 driver = webdriver.Chrome(service=chrome_service)
 # Maximize the window to avoid layout issues
